@@ -1,0 +1,6 @@
+project: savantenvs/libjxl
+target: color_encoding_fuzzer
+cmds:
+  - cmd: /mayhem/color_encoding_fuzzer
+    libfuzzer: true
+    timeout: 30

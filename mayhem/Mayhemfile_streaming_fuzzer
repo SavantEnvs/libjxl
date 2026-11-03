@@ -1,0 +1,6 @@
+project: savantenvs/libjxl
+target: streaming_fuzzer
+cmds:
+  - cmd: /mayhem/streaming_fuzzer
+    libfuzzer: true
+    timeout: 30

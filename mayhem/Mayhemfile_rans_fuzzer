@@ -1,0 +1,6 @@
+project: savantenvs/libjxl
+target: rans_fuzzer
+cmds:
+  - cmd: /mayhem/rans_fuzzer
+    libfuzzer: true
+    timeout: 30

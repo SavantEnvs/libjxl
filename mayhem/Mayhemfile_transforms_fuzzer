@@ -1,0 +1,6 @@
+project: savantenvs/libjxl
+target: transforms_fuzzer
+cmds:
+  - cmd: /mayhem/transforms_fuzzer
+    libfuzzer: true
+    timeout: 30

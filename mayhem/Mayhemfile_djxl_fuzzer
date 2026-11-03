@@ -1,0 +1,9 @@
+project: savantenvs/libjxl
+target: djxl_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/djxl_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/djxl_fuzzer
+    libfuzzer: true
+    timeout: 30

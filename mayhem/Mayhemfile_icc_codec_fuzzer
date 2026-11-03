@@ -1,0 +1,9 @@
+project: savantenvs/libjxl
+target: icc_codec_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/icc_codec_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/icc_codec_fuzzer
+    libfuzzer: true
+    timeout: 30

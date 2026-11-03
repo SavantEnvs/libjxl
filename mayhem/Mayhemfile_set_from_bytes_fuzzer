@@ -1,0 +1,6 @@
+project: savantenvs/libjxl
+target: set_from_bytes_fuzzer
+cmds:
+  - cmd: /mayhem/set_from_bytes_fuzzer
+    libfuzzer: true
+    timeout: 30

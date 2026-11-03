@@ -1,0 +1,6 @@
+project: savantenvs/libjxl
+target: fields_fuzzer
+cmds:
+  - cmd: /mayhem/fields_fuzzer
+    libfuzzer: true
+    timeout: 30
